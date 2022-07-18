@@ -9,8 +9,8 @@ const Footer = () => {
     <section className="bg-[#F4F2F9]">
       <main>
         <div className="container px-[20px] xl:px-[0px] mx-auto">
-          <div className="flex justify-between pt-[25px] xl:pt-[50px] pb-[20px] xl:pb-[40px] tracking-[0.1em]">
-            <div className="flex space-x-[15px] xl:space-x-[30px]">
+          <div className="md:flex justify-between space-y-[20px] md:space-y-[0px] pt-[25px] xl:pt-[50px] pb-[20px] xl:pb-[40px] tracking-[0.1em]">
+            <div className="md:flex md:space-x-[15px] xl:space-x-[30px] space-y-[20px] md:space-y-[0px]">
               <div>
                 <img
                   className="inline-block mr-[5px]"
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <div className="flex space-x-[5px] xl:space-x-[10px]">
               <div>Follow us</div>
-              <div className="w-[40px] h-[0px] self-center border-[1px] border-[#000]"></div>
+              <div className="w-[40px] h-[1px] self-center bg-[#000]"></div>
               <div>
                 <img src={facebook} alt="facebook icon" />
               </div>
