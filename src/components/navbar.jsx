@@ -46,7 +46,7 @@ const NavBar = ({
             </div>
 
             <div className="sm:flex justify-between space-y-[20px] sm:space-y-[0px] flex-grow">
-              <div className="flex space-x-[15px] xl:space-x-[30px] font-[400] text-[14px] leading-[21px] tracking-[0.05em]">
+              <div className="sm:flex sm:space-x-[15px] xl:space-x-[30px] font-[400] text-[14px] leading-[21px] tracking-[0.05em]">
                 {listNavItems.map((item) => (
                   <div
                     className={`px-[15px] py-[10px] ${

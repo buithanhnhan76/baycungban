@@ -9,7 +9,7 @@ const Footer = () => {
     <section className="bg-[#F4F2F9]">
       <main>
         <div className="container px-[20px] xl:px-[0px] mx-auto">
-          <div className="md:flex justify-between space-y-[20px] md:space-y-[0px] pt-[25px] xl:pt-[50px] pb-[20px] xl:pb-[40px] tracking-[0.1em]">
+          <div className="md:flex justify-between space-y-[20px] md:space-y-[0px] pt-[180px] sm:pt-[120px] pb-[20px] xl:pb-[40px] tracking-[0.1em]">
             <div className="md:flex md:space-x-[15px] xl:space-x-[30px] space-y-[20px] md:space-y-[0px]">
               <div>
                 <img

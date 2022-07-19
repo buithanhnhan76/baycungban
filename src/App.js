@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
+import Home from "./components/home";
 
 function App() {
   const [language, setLanguage] = useState("vietnamese");
@@ -13,7 +14,7 @@ function App() {
     "Payment Guide",
   ];
   return (
-    <div className="App">
+    <div className=" home-background">
       <NavBar
         language={language}
         setLanguage={setLanguage}
@@ -21,6 +22,7 @@ function App() {
         setSelectedNavItem={setSelectedNavItem}
         listNavItems={listNavItems}
       ></NavBar>
+      <Home></Home>
       <Footer></Footer>
     </div>
   );
